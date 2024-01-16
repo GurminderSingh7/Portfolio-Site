@@ -1,0 +1,374 @@
+/* Navbar styling */
+nav {
+  background-color: #2d3436;
+  padding: 10px 0;
+  text-align: center;
+  border: #fff;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/* Body styling */
+body {
+  background-image: url(/images/350829-widescreen-website-background-1920x1080-windows-xp.jpg);
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+/* Horizontal rule (line) styling */
+hr {
+  border: dotted rgb(169, 169, 169) 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 70px auto;
+}
+
+/* Image car styling */
+.imagecar {
+  width: 110px;
+}
+
+/* Back div styling */
+.back {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Unordered list styling */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* List item styling */
+li {
+  display: inline;
+  margin: 0 20px;
+}
+
+/* Link styling */
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+/* Link hover styling */
+a:hover {
+  color: #cac3c1; /* Change color on hover */
+}
+
+/* H1 heading styling */
+h1 {
+  text-align: center;
+}
+
+/* Top container styling */
+.top-container {
+  position: relative;
+  text-align: left;
+}
+
+/* Circular image styling */
+#circular {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Brain image styling */
+.brain {
+  width: 20%;
+  height: 10%;
+  margin-left: 200px;
+}
+
+/* Paragraph tag styling */
+.ptag {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* "Pro" span styling */
+.pro {
+  text-decoration: underline;
+}
+
+/* H1 heading (repeated) styling */
+h1 {
+  margin-top: 5%;
+  font-family: "Sacramento", cursive;
+  float: right;
+  margin-right: 500px;
+  display: inline;
+  font-weight: bold;
+}
+
+/* Bottom container styling */
+.bottom-container {
+  margin-top: 255px;
+  background-color: #2d3436;
+  height: 90px;
+  padding: 50px 0 20px 0;
+  text-align: center;
+  color: #fff;
+  border: #fff;
+}
+
+/* Link cursor styling */
+a {
+  cursor: pointer;
+}
+
+/* Footer link styling */
+.footer-link {
+  margin: 10px 50px;
+}
+
+/* Resume page styling */
+/* Add your existing CSS styles for the resume page here */
+
+/* Add your existing CSS styles here */
+
+/* Add your existing CSS styles here */
+
+/* Text and link color */
+body {
+  color: #333;
+}
+
+.linkedin {
+  color: #333;
+}
+
+/* Resume container styling */
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* H2 heading styling */
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Strong text styling */
+strong {
+  font-weight: bold;
+}
+
+/* Job section styling */
+.job {
+  margin-top: 20px;
+}
+
+/* Job H3 heading styling */
+.job h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Job paragraph styling */
+.job p {
+  margin: 5px 0;
+}
+
+/* Skills section styling */
+.skills {
+  margin-top: 20px;
+}
+
+/* Skills list styling */
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Skills list item styling */
+.skills li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Education section styling */
+.education {
+  margin-top: 20px;
+}
+
+/* Education H3 heading styling */
+.education h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Education paragraph styling */
+.education p {
+  margin: 5px 0;
+}
+
+/* Animation */
+.animated {
+  animation: fadeIn 1s ease-in-out;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Add your existing CSS styles here */
+
+/* Projects section styling */
+.projects {
+  padding: 20px;
+}
+
+/* Projects H2 heading styling */
+.projects h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Project styling */
+.project {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 5px #ccc;
+  transition: box-shadow 0.3s;
+}
+
+/* Project hover styling */
+.project:hover {
+  box-shadow: 0px 2px 10px #999;
+}
+
+/* Project H3 heading styling */
+.project h3 {
+  font-size: 20px;
+}
+
+/* Project paragraph styling */
+.project p {
+  font-size: 16px;
+}
+
+/* Project image styling */
+.project img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Project navigation styling */
+.project-navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Project navigation button styling */
+.project-navigation button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer styling (repeated) */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Contact section styling */
+.contact {
+  padding: 20px;
+}
+
+/* Contact H2 heading styling */
+.contact h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Form styling */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Label styling */
+label {
+  font-size: 18px;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Textarea resizing */
+textarea {
+  resize: vertical;
+}
+
+/* Button styling */
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Button hover styling */
+button:hover {
+  background-color: #222;
+}
+
+/* Footer styling (repeated) */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
